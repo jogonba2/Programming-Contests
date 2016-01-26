@@ -1,0 +1,2 @@
+Para cada nombre guardar la posición inicial y la posición final. Ordenar por posicion final ascendente todos los arrays.
+Recorriendo desde el final hasta el principio, coger los nombres que rompen una secuencia decreciente. (Falla en algunos casos, refinar).
