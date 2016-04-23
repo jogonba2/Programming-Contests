@@ -1,0 +1,16 @@
+1 2 3 4 5 6 7 8 9 10
+----------------------
+1 2 3 4 5 6 7 8 9 10
+----------------------
+
+X = {x1,x2,...,xN / xi!=xj}
+
+is_promising(x1,x2,...,xk) = True, si el numero de personas que se ven de frente es menor o igual que F
+			     y si el numero de personas que se ven desde detrás es menor o igual que B, sino False.
+
+branch(x1,x2,...,xk) = {x1,x2,...,xk,xk+1 / xk+1¬€{x1,x2,...,xk}}
+
+is_factible(x1,x2,...,xk) = True si el numero de personas que se ven de frente es igual que F y si el numero de personas que
+			    se ven desde detrás es igual que B, sino False.
+
+is_complete(x1,x2,...,xk) = True si k==N, sino False.

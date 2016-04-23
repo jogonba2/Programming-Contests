@@ -1,0 +1,7 @@
+Quedarse con los primeros n en los que cambie f(n):
+
+n       1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 ...
+f(n)    1 2 2 3 3 4 4 4 5  5  5  6  6  6  6  7  7  7  7  8 
+
+La secuencia es: 1 2 4 6 9 12 16 20 24 ... , según oeis se calcula tal como está implementado (función f en el código).
+Buscar f(n) hasta que coincida con algún almacenado o sea > que el anterior y < que el proximo, entonces devolver el n del f(n) anterior.

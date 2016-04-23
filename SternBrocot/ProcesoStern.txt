@@ -1,0 +1,22 @@
+si te vas por la izquierda
+el de la derecha
+es el padre
+y el de la izquierda es la izquierda
+si te vas por la derecha
+el de la derecha es 1/1
+y el de la izquierda es el padre
+
+
+--------------------------------------------------------------------
+Inicial 0/1 1/1 1/0
+
+Comparar la fraccion a buscar con la central, si la a buscar es mayor ir hacia la derecha, si es menor ir hacia la izquierda.
+Si vas hacia la derecha:
+	· La izq será la central anterior
+	· La central será la nueva (suma de la central anterior con la derecha)
+	· La derecha se mantiene
+
+Si vas hacia la izquierda:
+	· La izquierda se mantiene
+	· La central será la nueva (suma de la central anterior con la izquierda)
+	· La derecha será la central anterior

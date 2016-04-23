@@ -1,0 +1,2 @@
+http://primes.utm.edu/glossary/xpage/tau.html
+La función que da los divisores de un numero basándose en la factorización en primos.

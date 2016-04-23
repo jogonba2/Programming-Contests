@@ -1,0 +1,2 @@
+Coger filas columnas y diagonales.
+Hacer boyer moore para buscar la palabra y el reverso en todas las listas. Almacenar la primera ocurrencia de cada palabra.
